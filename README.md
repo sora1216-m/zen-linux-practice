@@ -20,7 +20,7 @@ crontabで、7月5日の1時3分に実行する設定を書いてください。
 
 ### 回答1
 
-7 5 1 * 3 /usr/local/bin/sample.sh
+3 1 5 7 * /usr/local/bin/sample.sh
 
 
 ### 問題2
@@ -29,7 +29,7 @@ crontabで、5月9日の2時に3分おきに実行する設定を書いてくだ
 
 ### 回答2
 
-5 * 9 2 */3 /usr/local/bin/sample.sh
+*/3 2 9 5 * /usr/local/bin/sample.sh
 
 ## 課題② issue課題
 
